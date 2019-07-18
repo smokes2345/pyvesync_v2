@@ -36,7 +36,7 @@ DEV10ASTATUS = '/10a/v1/device/devicestatus'
 
 #Devices supported by script - deviceType returned in device list
 #Supported Outlets have energy data
-SUPOUTLETS = ['wifi-switch-1.3', 'ESW15-USA', 'ESW01-EU'] #Orignal 7A Round outlet & rectangular 15A with nightlight
+SUPOUTLETS = ['wifi-switch-1.3', 'ESW15-USA', 'ESW01-EU', 'ESW01-USA'] #Orignal 7A Round outlet & rectangular 15A with nightlight
 #Supported switches do not have energy data
 SUPSWITCHES = ['ESWL01', 'ESWL02'] #Switch and three-way switch
 SUPDEVICETYPE = SUPOUTLETS + SUPSWITCHES
